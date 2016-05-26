@@ -17,25 +17,16 @@ package com.wicketproject.pages.login;
 
 import com.wicketproject.BasePage;
 import com.wicketproject.MenuItemEnum;
-import org.apache.wicket.markup.html.link.Link;
-import org.apache.wicket.markup.html.panel.Panel;
 
 /**
  *
  * @author ihor
  */
-public class AdminTab extends BasePage{
+public class HomeAdmin extends BasePage{
 
-    public AdminTab() {
-        
-        add(new NavigationPanel("adminNavigation"));
-    }
-    
-    
     @Override
     public MenuItemEnum getActiveMenu() {
-        return MenuItemEnum.ADMIN;
+        return MenuItemEnum.HOMEADMIN;
     }
-    
     
 }
