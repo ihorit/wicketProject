@@ -47,6 +47,13 @@
             <artifactId>guava</artifactId>
             <version>11.0.2</version>
         </dependency>
+       <!--BootStrap --> 
+        <dependency>
+            <groupId>de.agilecoders.wicket</groupId>
+            <artifactId>bootstrap</artifactId>
+            <version>0.5.0</version>
+            <type>jar</type>
+        </dependency>
 
 		<!--  JUNIT DEPENDENCY FOR TESTING -->
 		<dependency>

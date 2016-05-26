@@ -2,7 +2,7 @@ package com.wicketproject;
 
 public enum MenuItemEnum {
     
-    CLIENTS("Clients"),
+    TESTS("Tests"),
     PRODUCTS("Products"),
     ABOUT_US("About us"),
     LOGIN("Login"),

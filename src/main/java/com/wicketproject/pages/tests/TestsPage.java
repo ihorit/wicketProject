@@ -1,12 +1,12 @@
-package com.wicketproject.pages.clients;
+package com.wicketproject.pages.tests;
 
 import com.wicketproject.BasePage;
 import com.wicketproject.MenuItemEnum;
 
-public class ClientsPage extends BasePage {
+public class TestsPage extends BasePage {
 
     @Override
     public MenuItemEnum getActiveMenu() {
-        return MenuItemEnum.CLIENTS;
+        return MenuItemEnum.TESTS;
     }
 }

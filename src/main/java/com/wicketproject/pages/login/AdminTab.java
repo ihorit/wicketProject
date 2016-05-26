@@ -26,6 +26,7 @@ public class AdminTab extends BasePage{
 
     public AdminTab() {
         
+        
     }
     
     
