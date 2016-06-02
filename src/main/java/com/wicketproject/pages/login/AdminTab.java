@@ -28,7 +28,8 @@ public class AdminTab extends BasePage{
 
     public AdminTab() {
         
-        add(new NavigationPanel("adminNavigation"));
+        add(new AdminMenu("adminNavigation"));
+
     }
     
     
@@ -36,6 +37,6 @@ public class AdminTab extends BasePage{
     public MenuItemEnum getActiveMenu() {
         return MenuItemEnum.ADMIN;
     }
-    
-    
+
+
 }
