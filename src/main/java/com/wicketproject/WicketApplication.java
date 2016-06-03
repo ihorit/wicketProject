@@ -4,7 +4,7 @@ import org.apache.wicket.markup.html.WebPage;
 import org.apache.wicket.protocol.http.WebApplication;
 import com.wicketproject.pages.aboutus.OurSkillsPage;
 import com.wicketproject.pages.aboutus.TeamPage;
-import com.wicketproject.pages.tests.TestsPage;
+import com.wicketproject.pages.admin.CreateTestPage;
 import com.wicketproject.pages.admin.AdminTab;
 import com.wicketproject.pages.admin.LoginCheck;
 //import com.wicketproject.pages.admin.LoginPage;
@@ -21,7 +21,7 @@ public class WicketApplication extends WebApplication {
 
     @Override
     public void init() {
-        mountPage("Test", TestsPage.class);
+        mountPage("Test", CreateTestPage.class);
         mountPage("product-one", ProductOnePage.class);
         mountPage("product-two", ProductTwoPage.class);
         mountPage("product-three", ProductThreePage.class);

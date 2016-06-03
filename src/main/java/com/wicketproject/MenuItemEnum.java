@@ -2,12 +2,14 @@ package com.wicketproject;
 
 public enum MenuItemEnum {
     
-    TESTS("Tests"),
+    CREATETEST("Create Test"),
+    CREATEUSER("Create User"),
     PRODUCTS("Products"),
     ABOUT_US("About us"),
     LOGIN("Login"),
     ADMIN("Admin"),
     HOMESTUDENT("Homestudent"),
+    HOME("Home"),
     NONE("");
 
     private String label;
