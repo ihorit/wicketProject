@@ -1,5 +1,6 @@
 package com.wicketproject;
 
+import org.apache.wicket.markup.html.WebPage;
 import org.apache.wicket.protocol.http.WebApplication;
 import com.wicketproject.pages.HomePage;
 import com.wicketproject.pages.aboutus.OurSkillsPage;
@@ -17,8 +18,8 @@ import de.agilecoders.wicket.settings.BootstrapSettings;
 public class WicketApplication extends WebApplication {
 
     @Override
-    public Class<HomePage> getHomePage() {
-        return HomePage.class;
+    public Class<? extends WebPage> getHomePage() {
+        return AuthorizationPage.class;
     }
 
     @Override
