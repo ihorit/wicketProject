@@ -5,8 +5,8 @@ import com.wicketproject.pages.HomePage;
 import com.wicketproject.pages.aboutus.OurSkillsPage;
 import com.wicketproject.pages.aboutus.TeamPage;
 import com.wicketproject.pages.tests.TestsPage;
-import com.wicketproject.pages.login.LoginCheck;
-//import com.wicketproject.pages.login.LoginPage;
+import com.wicketproject.pages.admin.LoginCheck;
+//import com.wicketproject.pages.admin.LoginPage;
 import com.wicketproject.pages.products.ProductOnePage;
 import com.wicketproject.pages.products.ProductTwoPage;
 

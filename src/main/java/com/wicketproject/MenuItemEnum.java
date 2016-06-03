@@ -7,7 +7,7 @@ public enum MenuItemEnum {
     ABOUT_US("About us"),
     LOGIN("Login"),
     ADMIN("Admin"),
-    HOMEADMIN("HomeAdmin"),
+    HOMESTUDENT("Homestudent"),
     NONE("");
 
     private String label;
